@@ -4,6 +4,8 @@ require 'yaml'
 
 def load_library(emoticons)
   YAML.load_file(emoticons).each do |key, value|
+    
+  end
   final_hash = {}
   final_hash
 end
