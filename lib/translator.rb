@@ -14,6 +14,7 @@ def load_library(emoticons)
       end
       if !new_hash[j]
         new_hash[j] = {japanese:, j}
+      end
       binding.pry
     end  
   end
