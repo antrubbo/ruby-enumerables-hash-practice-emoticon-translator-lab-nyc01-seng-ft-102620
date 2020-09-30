@@ -7,7 +7,10 @@ def load_library(emoticons)
   new_keys = {}
   faces.each do |key, value|
     key.each do |name|
-      new_keys < name
+      new_keys < name[:english]
+    end
+    binding.pry
+  end
   
   # faces.each_with_object({}) do |(key, value), new_hash|
   #   value.each do |e|
