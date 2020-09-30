@@ -6,7 +6,8 @@ def load_library(emoticons)
   final_hash = {}
   YAML.load_file(emoticons).each do |key, value|
     final_hash[key] = {}
-    value.each do |i|
+    final_hash[key][:english] = ""
+    final_hash[key][:japanese] = ""
       
   end
   final_hash
