@@ -3,9 +3,8 @@ require 'pry'
 require 'yaml'
 
 def load_library(emoticons)
-  YAML.load_file(emoticons)
+  YAML.load_file(emoticons).each do |key, value|
   final_hash = {}
-  # binding.pry
   final_hash
 end
   
