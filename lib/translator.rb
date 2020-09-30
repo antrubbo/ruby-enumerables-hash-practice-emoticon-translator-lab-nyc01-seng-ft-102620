@@ -5,6 +5,9 @@ require 'yaml'
 def load_library(emoticons)
   faces = YAML.load_file('lib/emoticons.yml')
   
+  faces.each do |key, value|
+    e.each do |
+  
   # faces.each_with_object({}) do |(key, value), new_hash|
   #   value.each do |e|
   #     if !new_hash[e]
