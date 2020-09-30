@@ -4,11 +4,15 @@ require 'yaml'
 
 def load_library(emoticons)
   faces = YAML.load_file('lib/emoticons.yml')
-  new_keys = {}
-  faces.each do |key, value|
-    end
-    binding.pry
+  
+  
+  final_hash = {}
   end
+  
+  # faces.each do |key, value|
+  #   end
+  #   binding.pry
+  
   
   # faces.each_with_object({}) do |(key, value), new_hash|
   #   value.each do |e|
