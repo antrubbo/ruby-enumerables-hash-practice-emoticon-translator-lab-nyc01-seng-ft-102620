@@ -7,7 +7,7 @@ def load_library(emoticons)
   
   
   final_hash = {}
-  end
+end
   
   # faces.each do |key, value|
   #   end
@@ -23,7 +23,6 @@ def load_library(emoticons)
   #   new_hash.invert
   #   binding.pry
   # end
-end  
 
 def get_japanese_emoticon
   # code goes here
