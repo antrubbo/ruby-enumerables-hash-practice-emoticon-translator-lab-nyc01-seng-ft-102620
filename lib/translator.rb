@@ -10,7 +10,8 @@ def load_library(emoticons)
         new_hash[e] = {}
       end
     end
-    new_hash
+    new_hash.invert
+    binding.pry
   end
 end  
 
