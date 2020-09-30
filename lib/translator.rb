@@ -2,33 +2,17 @@
 require 'pry' 
 require 'yaml'
 
-def load_library(emoticons)
+def load_library(file)
   final_hash = {}
-  YAML.load_file(emoticons).each do |key, value|
+  YAML.load_file(file).each do |key, value|
     final_hash[key] = {}
     final_hash[key][:english] = value[0]
     final_hash[key][:japanese] = value[1]
-      
   end
   final_hash
 end
-  
-  # faces.each do |key, value|
-  #   end
-  #   binding.pry
-  
-  
-  # faces.each_with_object({}) do |(key, value), new_hash|
-  #   value.each do |e|
-  #     if !new_hash[e]
-  #       new_hash[e] = {}
-  #     end
-  #   end
-  #   new_hash.invert
-  #   binding.pry
-  # end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(file, emoticon)
   # code goes here
 end
 
