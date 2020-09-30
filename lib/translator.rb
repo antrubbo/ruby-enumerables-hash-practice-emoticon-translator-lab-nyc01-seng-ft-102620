@@ -9,8 +9,8 @@ def load_library(emoticons)
       if !new_hash[e]
         new_hash[e] = {}
       end
-      binding.pry
-    end  
+    end
+    new_hash
   end
 end  
 
