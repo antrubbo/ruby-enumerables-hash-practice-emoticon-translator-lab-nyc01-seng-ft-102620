@@ -17,9 +17,15 @@ def get_japanese_emoticon(file, emoticon)
 end
 
 def get_english_meaning(file, emoticon)
-  load_library(file)
-  
-  binding.pry
+  load_library(file).each do |name|
+    name.each do |key, value|
+      if key[value] == emoticon
+        return key
+      end
+      binding.pry
+    end
+  end
+  # binding.pry
 end
 
 
