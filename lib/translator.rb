@@ -3,10 +3,10 @@ require 'pry'
 require 'yaml'
 
 def load_library(emoticons)
-  YAML.load_file(emoticons).each do |key, value|
-    
-  end
   final_hash = {}
+  YAML.load_file(emoticons).each do |key, value|
+    final_hash
+  end
   final_hash
 end
   
