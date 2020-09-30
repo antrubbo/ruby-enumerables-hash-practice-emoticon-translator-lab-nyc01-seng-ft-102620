@@ -10,10 +10,10 @@ def load_library(emoticons)
     value.each do |e, j|
       # binding.pry
       if !new_hash[e]
-        new_hash[e] = {english:, e}
+        new_hash[e] = {english:}
       end
       if !new_hash[j]
-        new_hash[j] = {japanese:, j}
+        new_hash[j] = {japanese:}
       end
       binding.pry
     end  
