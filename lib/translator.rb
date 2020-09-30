@@ -4,9 +4,9 @@ require 'yaml'
 
 def load_library(emoticons)
   # faces = YAML.load_file('lib/emoticons.yml')
-  
-  
   final_hash = {}
+  
+  final_hash
 end
   
   # faces.each do |key, value|
