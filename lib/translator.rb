@@ -13,8 +13,8 @@ def load_library(emoticons)
         new_hash[e] = {}
       end
       if !new_hash[j]
-      #   new_hash[j] = {}
-      # end
+        new_hash[j] = {}
+      end
       binding.pry
     end  
   end
