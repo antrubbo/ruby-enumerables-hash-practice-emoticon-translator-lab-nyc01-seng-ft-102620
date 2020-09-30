@@ -13,7 +13,7 @@ def load_library(emoticons)
         new_hash[e] = {english:, e}
       end
       if !new_hash[j]
-        new_hash[j] = {
+        new_hash[j] = {japanese:, j}
       binding.pry
       new_hash.update(e)
       
